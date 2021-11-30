@@ -1,0 +1,19 @@
+DEBUG
+###################### SESSION [2021-10-19-20:33:24] ######################
+
+###################### SESSION [2021-11-30-20:59:11] ######################
+list index out of rangelist index out of rangeException in thread Thread-18:
+Traceback (most recent call last):
+  File "threading.py", line 932, in _bootstrap_inner
+  File "threading.py", line 870, in run
+  File "GUI.py", line 660, in AUTO_ROUTINE
+    self.text_on_screen.edit_undo()
+  File "tkinter\__init__.py", line 3702, in edit_undo
+  File "tkinter\__init__.py", line 3658, in edit
+RuntimeError: main thread is not in main loop
+
+###################### SESSION [2021-11-30-21:03:42] ######################
+argument of type 'NoneType' is not iterablelist index out of rangelist index out of range
+###################### SESSION [2021-11-30-21:27:20] ######################
+
+###################### SESSION [2021-11-30-21:29:59] ######################
